@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.nave {
+    width: 100%;
+    height: 90px;
+    background-color: #38AF90;
+    padding: 10px;
+}
+.nave-contrl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nave-control-title {
+    color: #fff;
+}
+.nave-control-menu ul, li, a {
+    display: flex;
+   gap: 10px;
+   text-decoration: none;
+   margin-right: 0px;
+   align-items: center;
+   color: #fff;
+}
+.nave-control-logo img{
+    width: 62px;
+    height: 62px;
+    border: none;
+    background-color: #2C3E50;
+    border-radius: 100%;
+    margin-left: 0px;
+}
+#main-news-title {
+    font-size: 36px;
+    margin-top: 5px;
+    text-align: center;
+    color: #797979;
+    padding: 20px;
+}
+.first-section-news {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   
+}
+#Read-more{
+    color: #DD7E92;
+    padding-top: 10px;
+}
+#news-title {
+    color: #38AF90;
+}
+#news-subtitle {
+    color: #797979;
+}
+#news-date {
+    color: #38AF90;
+}
+#news-text {
+    color: #797979;
+}
+.news-first {
+     width: 1000px;
+    margin-top: 2px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    padding: 40px;
+    box-shadow: 0px 2px 2px rgba(80, 77, 77, 0.77);
+}
+.news-second {
+    width: 1000px;
+   margin-top: 2px;
+   background-color: #F0F0F0;
+   border-radius: 10px;
+   font-size: 12px;
+   margin-left: 150px;
+   margin-bottom: 40px;
+   padding: 40px;
+   box-shadow: 0px 2px 2px rgba(80, 77, 77, 0.77);
+}
+.loading-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  
+}
+#loading {
+    width: 244px;
+    height: 64px;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: #DD7E92;
+}
+#title-games {
+    color: #38AF90;
+    text-align: center;
+    padding: 40px;
+}
+.second-section-games {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px; 
+   
+}
+.image-avatar {
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.77);
+}
+#img {
+    border-radius: 6px 6px 0px 0px;
+}
+#img-title {
+    color: #797979;
+}
+#img-marked-letter {
+    color: #38AF90;
+    white-space: nowrap;
+}
+#img-num {
+    padding: 20px;
+    color: #38AF90;
+}
+.thirst-section {
+   
+    align-items: center;
+   
+  
+}
+#form-title {
+    color: #797979;
+    text-align: center;
+    padding: 40px;
+}
+#form {
+    display: block;
+    background-color: #F0F0F0;
+    width: 790px;
+    height: 500x;
+    align-items: center;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgba(80, 77, 77, 0.77);
+}
+.form-name, .form-emal {
+   display: block;
+   width: 100%;
+   padding: 5px;
+   width: 642px;
+   border-radius: 4px;
+   border: none;
+   height: 50px;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+.form-name {
+    margin-bottom: 20px;
+}
+.shoose {
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.button-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+   
+}
+#button-form-enviar {
+    width: 244px;
+    height: 67px;
+    margin-left: 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #DD7E92;
+    border: none;
+    cursor: pointer;
+}
+#button-form-enviar:hover {
+background-color: #DD7E92;
+color: #fff;
+}
+.shoose  {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #797979;
+}
+.checkbox-update {
+    margin-top: 15px;
+}
+
+.secundary-conteiner-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #383838;
+    width: 100%;
+    height: 190px;
+    margin: auto;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 11px;
+    line-height: 21px;
+    color: #fff;
+}
+#privacy {
+    text-align: center;
+}
+
+
+      
